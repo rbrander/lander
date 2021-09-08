@@ -1,0 +1,28 @@
+Create a function to generate a landscape with a given seed. 
+
+
+5 |
+4 |---------.
+3 |          \           .------.
+2 |           \         /        \ 
+1 |            \       /          `----
+0 |_____________`-----'________________
+  0123456789012345678901234567890123456
+  0000000000111111111122222222223333333
+
+lengths [9, 5, 6, 4]
+heights [4, 0, 3, 1]
+
+[
+  { length: 9, height: 1.0 },
+  { length: 5, height: 0.0 },
+  { length: 6, height: 0.75 },
+  { length: 4, height: 0.25 }
+]
+
+
+- could return an array of values, where
+	- each even value is width of space
+	- each odd value could be the correspoding altitude (-1 to +1)
+	 
+

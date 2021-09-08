@@ -1,0 +1,14 @@
+Implement a simple pseudo random number generator using a seed.
+
+Javascript's random number generator is based on time and doesn't allow
+a seed to be passed in.
+
+
+https://en.wikipedia.org/wiki/Linear_congruential_generator
+
+X(n+1) = (a * X(n) + c) mod m
+
+Using Borland C's implementation:
+m = 2^32
+a = 22695477
+c = 1
